@@ -42,7 +42,7 @@ function App() {
     <div className="App">
       {session.isLoggedIn ? (
         <header className="App-header">
-          <h1>welcome To {session.currentUser && session.currentUser.email}</h1>
+                   <h1>welcome To {session.currentUser && session.currentUser.email}</h1>
           <br></br>
           <button type="button" onClick={handleLogout}>
             Logout
